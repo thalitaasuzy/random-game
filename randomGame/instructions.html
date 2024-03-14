@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number guessing game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="instrucTitle">Instructions</h1>
+        <p id="welcome" >Welcome to the Random Game! Here are the instructions:</p>
+        <ol class=instructions>
+            <li>Click the "Start" button to begin the game.</li>
+            <li>Once the game starts, a random number or item will be displayed.</li>
+            <li>Your task is to guess the next random number or item.</li>
+            <li>Enter your guess in the provided input field.</li>
+            <li>Click the "Submit" button to submit your guess.</li>
+            <li>If your guess is correct, you win!</li>
+            <li>If your guess is incorrect, you can try again.</li>
+        </ol>
+      <div style="margin-top: 30px;">
+        <a href="game.html">
+          <button id="startButton">start</button>
+        </a>
+      </div>
+        <p id="gameStatus"></p>
+        <form id="guessForm" style="display: none;">
+            <label for="guessInput">Your Guess:</label>
+            <input type="text" class="guessInput" required>
+            <button type="submit">Submit</button> -->
+       </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: transparent;
+    font-size: 18;
+    font-weight: 500;
+    padding: 400px;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family:  BlinkMacSystemFont, sans-serif;
+  }
+  
+  .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .form label, .form input {
+      margin-bottom: 20px;
+  }
+  .form input[type="number"] {
+    width: 40px;
+    height: 20px;
+    border: 2px solid rgb(222, 222, 222);
+    border-radius: 8px;
+  }
+  
+  .lastResult {
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer; 
+  }
+  
+  resultParas{
+    color: #fcbe24;
+  }
+  
+  guesses{
+    color: #fcbe24;
+  }
+  
+  lowOrHi{
+    color: #fcbe24;
+  }
+  
+  .container{
+    border-radius: 12px;
+    width: 600px;
+    height: 300px;
+  }
+  
+  #titleNum{
+    display: inline;
+    color:#e66264
+  }
+  
+  #titleGuess{
+    display: inline;
+    color:#78e7e5
+  }
+  
+  #titleGame{
+    display: inline;
+    color:#fd9f4b
+  }
+  
+  .introduction{
+    font-weight: normal;
+     color: #201c13
+  }
+  
+  #instrucTitle{
+    color: #e66264;
+  }
+  
+  #welcome{
+    color: #74d2cf;
+  }
+  .instructions{
+    color: #201c13;
+  }
+  
+  #startButton{
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: #fd9f4b;
+    border: 2px solid #fd9f4b;
+    color: black;
+  }
+  
+  #guessSubmit{
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: #f06769;
+    border: 2px solid #db5c5e;
+    color: black;
+  }
+  
+  #getStartedButton{
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: #f06769;
+    border: 2px solid #f06769;
+    color: white;
+  }
+  
